@@ -1,0 +1,17 @@
+
+function tot_equ_sum(x, y) {
+  if (x == 65 || y == 65) {
+    return true;
+  }
+
+  if (Math.abs(x + y) == 65)
+  {
+    return true;
+  }
+
+  return false;
+}
+console.log(tot_equ_sum(65, 0));
+console.log(tot_equ_sum(15, 50));
+console.log(tot_equ_sum(70, 5));
+console.log(tot_equ_sum(10, 155));

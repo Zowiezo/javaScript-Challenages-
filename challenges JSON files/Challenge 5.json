@@ -1,0 +1,12 @@
+
+var a= "house computers";
+var b= {};
+for (let i=0;
+	i<a.length;i++) {
+	
+    if((a.match(new RegExp(a[i], "g"))).length > 1)
+    {
+        b[a[i]]=(a.match(new RegExp(a[i], "g"))).length;
+    }
+}
+console.log(b);
